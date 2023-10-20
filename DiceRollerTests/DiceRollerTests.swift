@@ -32,5 +32,15 @@ final class DiceRollerTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testRandomNumber()
+    {
+        let die = Die(NumberOfSides: 6)
+        let number = die.RollDie()
+        
+        let correctValue = number > 0 && number < 6
+        
+        assert(correctValue)
+    }
 
 }

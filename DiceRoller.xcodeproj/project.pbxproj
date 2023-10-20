@@ -14,6 +14,7 @@
 		615DA8D52ADF2F99005C3FA8 /* DiceRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615DA8D42ADF2F99005C3FA8 /* DiceRollerTests.swift */; };
 		615DA8DF2ADF2F99005C3FA8 /* DiceRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615DA8DE2ADF2F99005C3FA8 /* DiceRollerUITests.swift */; };
 		615DA8E12ADF2F99005C3FA8 /* DiceRollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615DA8E02ADF2F99005C3FA8 /* DiceRollerUITestsLaunchTests.swift */; };
+		615DA8F22ADF31D2005C3FA8 /* Die.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615DA8F12ADF31D2005C3FA8 /* Die.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		615DA8DA2ADF2F99005C3FA8 /* DiceRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		615DA8DE2ADF2F99005C3FA8 /* DiceRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerUITests.swift; sourceTree = "<group>"; };
 		615DA8E02ADF2F99005C3FA8 /* DiceRollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		615DA8F12ADF31D2005C3FA8 /* Die.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Die.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				615DA8C52ADF2F98005C3FA8 /* ContentView.swift */,
 				615DA8C72ADF2F99005C3FA8 /* Assets.xcassets */,
 				615DA8C92ADF2F99005C3FA8 /* Preview Content */,
+				615DA8F12ADF31D2005C3FA8 /* Die.swift */,
 			);
 			path = DiceRoller;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				615DA8C62ADF2F98005C3FA8 /* ContentView.swift in Sources */,
 				615DA8C42ADF2F98005C3FA8 /* DiceRollerApp.swift in Sources */,
+				615DA8F22ADF31D2005C3FA8 /* Die.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
